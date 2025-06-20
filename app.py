@@ -7,7 +7,7 @@ import zipfile
 from flask import Flask, send_file
 
 # CONFIGURAÇÕES
-usuario = "teste"  # Altere aqui o nome do usuário do Twitter
+usuario = "alinababbie"  # Altere aqui o nome do usuário do Twitter
 base_url = f"https://twitter.com/{usuario}"
 imagem_regex = r"https://web\\.archive\\.org/web/\\d+im_/https://pbs\\.twimg\\.com/media/[^\"'\\s>]+"
 output_folder = f"imagens_{usuario}"
