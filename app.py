@@ -85,8 +85,8 @@ def coletar_e_salvar():
 
 @app.route("/download")
 def download():
+    coletar_e_salvar()
     return send_file(zip_filename, as_attachment=True)
 
 if __name__ == "__main__":
-    coletar_e_salvar()
     app.run(host="0.0.0.0", port=8000)
